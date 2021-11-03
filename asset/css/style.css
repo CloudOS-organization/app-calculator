@@ -1,0 +1,73 @@
+calculator-app .frame {
+  background-color: #fff;
+}
+
+calculator-app .frame.expanded {
+  background-color: #fff;
+}
+
+calculator-app .frame .head {
+  background-color: #ff9201;
+}
+
+calculator-app .frame .head .actions .action {
+  background-color: #adadad;
+}
+
+calculator-app .frame .head .actions .action:hover {
+  background-color: #646464;
+}
+
+calculator-app .frame .head .title {
+  color: black;
+  font-weight: 500;
+}
+
+calculator-app .frame .body .calculator__container .calculator__view {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+calculator-app .frame .body .calculator__container .calculator__buttons {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+  -ms-grid-rows: (100px)[5];
+      grid-template-rows: repeat(5, 100px);
+  background-color: #f0efef;
+}
+
+calculator-app .frame .body .calculator__container .calculator__buttons button {
+  width: 65px;
+  height: 65px;
+  background-color: #e6e2e2;
+  border: none;
+  margin: auto;
+  border-radius: 8px;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+calculator-app .frame .body .calculator__container .calculator__buttons button.actions {
+  color: #e98200;
+}
