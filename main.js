@@ -1,5 +1,5 @@
-import {html , Type} from 'https://doc.typable.dev/js/deps.js';
-import {Window} from 'https://doc.typable.dev/js/component/mod.js';
+import {html , Type} from 'https://repo.cloudos.batchcloud.de/core/deps.js';
+import {Window} from 'https://repo.cloudos.batchcloud.de/core/component/mod.js';
 
 const INITIAL_WIDTH = 400;
 const INITIAL_HEIGHT = 600;
